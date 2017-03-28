@@ -1,0 +1,28 @@
+package pt.europeia.aed;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter numbers");
+		String temps = sc.nextLine();
+		String a;
+		int b;
+		String c;
+				
+		while(temps.length() != 0) {
+			
+			System.out.println(temps.substring(0, temps.indexOf(" "))+ " " + temps.length());
+			b = temps.contains(" ") ? temps.indexOf(" ") : temps.length() ;
+			a = temps.substring(0, b);
+			//temps = 
+			
+						
+		}
+		
+		
+	}
+}
